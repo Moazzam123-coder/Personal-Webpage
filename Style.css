@@ -1,0 +1,128 @@
+Body{
+    font-family: 'Poppins','san-serif';
+    background-color: #f0f2f2;
+    color:#333;
+    line-height: 1.4;
+    margin: 0;
+    display: flexbox;
+}
+
+h1{
+    font-weight: 1000;
+}
+h2{
+    font-weight: 600;
+}
+
+p{
+    font-weight: 500;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline; 
+}
+.fas, .fab{
+    margin-right: 1px;
+    color: inherit;
+}
+.icon-link{
+    display: inline-flex;/*display icon links inline with block formatting*/
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px; /*add space on the left and right of each icon */
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+.email-icon{
+    background-color: red;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px
+}
+.skill-list li{
+    list-style-type: none;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 5px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    background:linear-gradient(to right , purple,orange );
+    color: white;
+    padding: 40px;
+    text-align: center;
+    
+    
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(255, 0, 238, 0.2);
+    object-fit: cover;
+}
+
+
+form{
+    max-width: 500px;
+    margin:20px auto;
+    padding:20px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2) ;
+
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+form button{
+    background: #007bff;
+    color: #fff;
+    border: 0;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover{
+    background: orange;
+}
+
+footer{
+    background:linear-gradient(to right , purple,orange );
+    color: white;
+    padding:20px 0 ;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position:relative;
+}
